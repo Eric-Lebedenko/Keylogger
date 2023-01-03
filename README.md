@@ -18,3 +18,13 @@ And by the way, to stop keylogger, you need to restart your PC, or open the cons
 (Этот файл будет иметь имя: keylogger.txt)
 
 И кстати, что бы остановить keylogger, вам нужно перезагрузить ваш ПК, или отктыть консоль и прописать следующее: taskkill /F /IM (Имя вашего .exe файла (имя, которое вы дали при компиляции проекта) Пример: taskkill /F /IM keylogger.exe
+
+[DE]
+
+Sie müssen dieses Projekt kompilieren. Ich empfehle dringend, den GCC/G++-Compiler zu verwenden. (Kompilierungsbefehl: g++ Main.cpp -o keylogger)
+
+Nach erfolgreicher Kompilierung können Sie Ihre .exe-Datei ausführen
+Sobald das Programm startet, verschwindet das Terminalfenster und das Programm beginnt mit der Aufzeichnung aller gedrückten Tastaturtasten im Stammordner des Projekts.
+(Diese Datei heißt: keylogger.txt)
+
+Übrigens, um den Keylogger zu stoppen, müssen Sie Ihren PC neu starten oder die Konsole öffnen und Folgendes schreiben: taskkill /F /IM (Name Ihrer .exe-Datei (der Name, den Sie beim Kompilieren des Projekts angegeben haben) Beispiel: taskkill /F /IM Keylogger.exe
